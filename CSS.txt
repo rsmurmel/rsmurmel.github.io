@@ -1,0 +1,27 @@
+CSS
+style sheet language:
+rule set:
+selector1,...,M {
+property1: value1;//declaration
+...
+propertyN: valueN;
+}
+selector: 
+element/tag/type selector: TYPE: HTML element of TYPE: f.e. p/paragraph
+id selector: #ID: HTML element with id=ID//only one element per ID
+class selector: .CLASS: HTML element/s with class=CLASS//multiple elements possible
+attribut selector: TYPE[ATTRIBUTVALUE]: HTML element/s of TYPE with ATTRIBUTVALUE
+pseudo-class selector: TYPE:STATE: HTML element/s of TYPE and in STATE
+
+selector: html//whole page, body//contentspace
+declaration
+space:
+property:
+padding: N1px/top N2px/right N3px/bottom N4px/left;
+border: Npx;
+margin: N1px/top N2px/right N3px/bottom N4px/left;
+width: Npx;
+background-color: #CODE;
+color: #CODE;
+text-shadow: N1px/X-Offset N2px/Y-Offset N3px/BlurRadius color
+display: block/gives element block level value//space properties
